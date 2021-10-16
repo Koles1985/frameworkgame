@@ -10,7 +10,7 @@ public class AccelerometerHandler implements SensorEventListener {
     float accelX;
     float accelY;
     float accelZ;
-//
+
     public AccelerometerHandler(Context context){
         SensorManager manager = (SensorManager)context
                 .getSystemService(Context.SENSOR_SERVICE);
